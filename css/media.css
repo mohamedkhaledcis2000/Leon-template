@@ -1,0 +1,51 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .container {
+    width: 550px;
+  }
+  .landing {
+    height: 300px;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact .info .label,
+  .contact .info .link {
+    font-size: 10px;
+  }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+  .services .services-content .serv {
+    flex-direction: column;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .container {
+    width: 900px;
+  }
+}
+@media (max-width: 991px) {
+  .About-content {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .image {
+    display: none;
+  }
+}
